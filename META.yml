@@ -1,0 +1,27 @@
+---
+abstract: 'shorten (or lengthen) URLs with http://v.gd'
+author:
+  - 'Mike Doherty <doherty@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Shorten-VGd
+requires:
+  Carp: 0
+  Exporter: 0
+  HTML::Entities: 0
+  WWW::Shorten::generic: 0
+  perl: 5.008
+resources:
+  bugtracker: http://github.com/doherty/WWW-Shorten-VGd/issues
+  repository: git://github.com/doherty/WWW-Shorten-VGd.git
+version: 0.001
