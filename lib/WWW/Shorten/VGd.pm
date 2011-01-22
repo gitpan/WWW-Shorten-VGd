@@ -4,7 +4,7 @@ use 5.006;
 
 package WWW::Shorten::VGd;
 BEGIN {
-  $WWW::Shorten::VGd::VERSION = '0.001';
+  $WWW::Shorten::VGd::VERSION = '0.002';
 }
 # ABSTRACT: shorten (or lengthen) URLs with http://v.gd
 
@@ -65,7 +65,7 @@ WWW::Shorten::VGd - shorten (or lengthen) URLs with http://v.gd
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -83,7 +83,7 @@ a database of long URLs, each of which has a unique identifier. By default,
 this URL shortening service will show you a preview page before redirecting
 you. This can be turned off by setting a cookie at L<http://v.gd/previews.php>.
 
-=head1 Functions
+=head1 FUNCTIONS
 
 =head2 makeashorterlink
 
