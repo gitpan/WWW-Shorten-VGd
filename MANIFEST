@@ -1,6 +1,7 @@
-CHANGES
+Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -8,14 +9,17 @@ lib/WWW/Shorten/VGd.pm
 t/00-compile.t
 t/vgd.t
 xt/author/critic.t
+xt/release/cpan-changes.t
 xt/release/dist-manifest.t
 xt/release/distmeta.t
 xt/release/eol.t
 xt/release/has-version.t
 xt/release/kwalitee.t
+xt/release/meta-json.t
 xt/release/minimum-version.t
 xt/release/no-tabs.t
 xt/release/pod-coverage.t
+xt/release/pod-linkcheck.t
 xt/release/pod-syntax.t
 xt/release/portability.t
 xt/release/synopsis.t

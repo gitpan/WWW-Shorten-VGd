@@ -9,7 +9,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,6 +22,7 @@ requires:
   WWW::Shorten::generic: 0
   perl: 5.008
 resources:
-  bugtracker: http://github.com/doherty/WWW-Shorten-VGd/issues
+  bugtracker: https://github.com/doherty/WWW-Shorten-VGd/issues
+  homepage: http://p3rl.org/WWW::Shorten::VGd
   repository: git://github.com/doherty/WWW-Shorten-VGd.git
-version: 0.002
+version: 0.003
